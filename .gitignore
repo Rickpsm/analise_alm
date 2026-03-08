@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes Virtuais (Essencial para não subir gigabytes de bibliotecas)
+venv/
+env/
+.env
+*.venv
+
+# Dados e Datasets (Proteja seus dados de análise de risco e arquivos pesados)
+data/
+*.csv
+*.xlsx
+*.json
+*.sql
+*.sqlite
+
+# Jupyter Notebook (Arquivos temporários de checkpoints)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Modelos de Machine Learning (TensorFlow/Keras/PyTorch)
+*.h5
+*.model
+*.pkl
+*.npy
+*.pt
+*.sav
+
+# IDEs (Configurações do VS Code e outras)
+.vscode/
+.idea/
+.DS_Store
+
+# Logs de sistema
+*.log
